@@ -7,6 +7,6 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
-    domains: ['s3.ap-northeast-2.amazonaws.com']
+    domains: ['s3.ap-northeast-2.amazonaws.com', 'http://']
   }
 }

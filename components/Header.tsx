@@ -21,7 +21,7 @@ const Header = () => {
                 sx={
                 isMobile
                     ? { display: "none" }
-                    : { fontWeight: "bold", fontSize: "24px" }
+                    : { fontWeight: "bold", fontSize: "24px", color: "#353b48" }
                 }
             >
                 AWESOME FOOD STORE
@@ -29,11 +29,12 @@ const Header = () => {
             <Box>
                 <Link href="/">
                 <Button
-                    variant="outlined"
-                    color="warning"
                     sx={{
-                    borderRadius: "10px",
-                    marginRight: "20px",
+                        borderRadius: "10px",
+                        marginRight: "20px",
+                        color: "#353b48",
+                        fontWeight: 'bold',
+                        fontSize: '16px',
                     }}
                 >
                     Home
@@ -41,10 +42,11 @@ const Header = () => {
                 </Link>
                 <Link href="/about">
                 <Button
-                    variant="outlined"
                     sx={{
-                    color: "text.primary",
-                    borderRadius: "10px",
+                        color: "#353b48",
+                        borderRadius: "10px",
+                        fontWeight: 'bold',
+                        fontSize: '16px'
                     }}
                 >
                     About

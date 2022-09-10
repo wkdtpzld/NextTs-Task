@@ -28,7 +28,7 @@ const Footer = styled.footer`
 
 const FooterLine = styled.div`
     width: 90%;
-    background-color: #6170ac;
+    background-color: #353b48;
     padding: 5px 0px;
     border-radius: 15px;
 `;
